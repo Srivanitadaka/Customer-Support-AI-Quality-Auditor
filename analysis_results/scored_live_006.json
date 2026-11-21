@@ -1,0 +1,62 @@
+{
+  "grade": "A",
+  "overall_score": 96,
+  "call_outcome": "Resolved",
+  "was_resolved": true,
+  "sentiment": "positive",
+  "summary": "The customer had trouble logging into their account due to a password reset issue, but the agent helped resolve the problem by forcing a new password reset from their end. The customer was able to log in successfully after receiving the new reset email.",
+  "issue_detected": "password reset issue",
+  "satisfaction": {
+    "sentiment": "positive",
+    "sentiment_score": 0.9,
+    "emotional_stability": "Excellent",
+    "customer_frustration": "Low",
+    "frustration_reason": "None",
+    "rating": 4.8
+  },
+  "agent_quality": {
+    "language_clarity": 18,
+    "professionalism": 19,
+    "time_efficiency": 17,
+    "response_efficiency": 18,
+    "empathy_score": 8.5,
+    "bias_detected": false,
+    "calmed_customer": true,
+    "empathy_phrases_used": [
+      "I can help you with that",
+      "Sometimes there can be a small delay"
+    ]
+  },
+  "dimension_scores": {
+    "empathy": 9,
+    "professionalism": 9,
+    "compliance": 10,
+    "resolution_effectiveness": 9,
+    "communication_clarity": 9
+  },
+  "model_metrics": {
+    "precision": 0.95,
+    "recall": 0.92,
+    "f1_score": 0.93,
+    "confidence": 0.98,
+    "notes": "Model performed well in identifying key aspects of the call"
+  },
+  "violations": [],
+  "improvements": [
+    {
+      "area": "opening the call",
+      "suggestion": "use a more personalized greeting",
+      "example": "Hello, my name is [Name] and I'll be happy to assist you with your technical support issue"
+    },
+    {
+      "area": "issue resolution",
+      "suggestion": "offer additional troubleshooting steps before escalating the issue",
+      "example": "Have you tried clearing your browser cache and cookies?"
+    }
+  ],
+  "highlights": [
+    "The agent remained professional and empathetic throughout the call",
+    "The agent effectively resolved the customer's issue in a timely manner"
+  ],
+  "compliance_alerts": []
+}
